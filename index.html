@@ -1,31 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Surya Nagireddy's Website</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Surya Nagireddy - Web Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Adding Google Fonts for a professional font style -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
-  <header>
-    <h1>Welcome to Surya Nagireddy's Personal Website</h1>
-  </header>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo">Surya Nagireddy</h1>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
 
-  <main>
-    <section class="about">
-      <h2>About Surya Nagireddy</h2>
-      <p>Hello, I am Surya Nagireddy. I am a web developer with a passion for creating amazing websites and applications. Welcome to my personal page!</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h1>Welcome to My Professional Portfolio</h1>
+            <p id="greeting">Hi, I'm Surya Nagireddy, a passionate web developer with expertise in creating modern and responsive websites.</p>
+            <a href="#contact" class="cta-btn">Get In Touch</a>
+        </div>
     </section>
-    <section class="contact">
-      <h2>Contact Me</h2>
-      <p>You can reach me at: <strong>surya@example.com</strong></p>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I'm Surya Nagireddy, a professional web developer with a keen interest in creating responsive and user-friendly websites. I specialize in front-end and back-end technologies, including HTML, CSS, JavaScript, React, Node.js, and more. I am committed to delivering high-quality work that meets client requirements and exceeds expectations.</p>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <p>© 2024 Surya Nagireddy. All rights reserved.</p>
-  </footer>
+    <!-- Skills Section -->
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <h2>My Skills</h2>
+            <ul class="skills-list">
+                <li>HTML5 & CSS3</li>
+                <li>JavaScript & jQuery</li>
+                <li>React & Node.js</li>
+                <li>Responsive Web Design</li>
+                <li>Git & GitHub</li>
+                <li>UI/UX Design</li>
+                <li>API Integration</li>
+            </ul>
+        </div>
+    </section>
 
-  <script src="script.js"></script>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>A brief description of project 1.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>A brief description of project 2.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                    <h3>Project 3</h3>
+                    <p>A brief description of project 3.</p>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section bg-light">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you're interested in working with me, feel free to reach out!</p>
+            <p>Email: <strong>surya@example.com</strong></p>
+            <p>Phone: <strong>(123) 456-7890</strong></p>
+            <a href="mailto:surya@example.com" class="cta-btn">Send an Email</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>© 2024 Surya Nagireddy. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
