@@ -83,6 +83,7 @@ nav .logo {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
+    animation: linkAnimation 3s infinite;
 }
 
 .cta-btn:hover {
