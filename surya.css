@@ -75,7 +75,6 @@ nav .logo {
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
-
 .cta-btn {
     background-color: #e74c3c;
     color: #fff;
@@ -83,9 +82,13 @@ nav .logo {
     text-decoration: none;
     font-weight: bold;
     border-radius: 5px;
-    animation: linkAnimation 3s infinite;
+    display: inline-block;
 }
 
+/* Smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
 .cta-btn:hover {
     background-color: #c0392b;
 }
